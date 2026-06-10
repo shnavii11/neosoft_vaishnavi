@@ -2,7 +2,7 @@
 #brutefore = would be to verify every number with the next and other nuber to optimise this we rater see the need of number remaining
 class Solution:
       def twoSum(self, nums, target):
-      #store already read numbers 
+          #store already read numbers 
           read = {}
 
           for i, a in enumerate(nums):
