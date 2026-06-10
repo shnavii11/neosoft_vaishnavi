@@ -8,7 +8,7 @@ class Solution:
           for i, a in enumerate(nums):
          # number required to reach the target
               remaining = target - a
-         # if that x nuber was seen before return 
+         # if that x number was seen before return 
               if remaining in read:
                   return [read[remaining], i]
          #store it 
