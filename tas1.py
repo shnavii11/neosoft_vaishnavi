@@ -6,12 +6,12 @@ class Solution:
           read = {}
 
           for i, a in enumerate(nums):
-          # number required to reach the target
+         # number required to reach the target
               remaining = target - a
          # if that x nuber was seen before return 
               if remaining in read:
                   return [read[remaining], i]
-
+         #store it 
               read[a] = i
          # else return null 
           return [] 
